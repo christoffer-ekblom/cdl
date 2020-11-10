@@ -1,0 +1,22 @@
+{
+  "name": "levenshtein-cd",
+  "version": "1.0.0",
+  "description": "Change directory with levenshtein distance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "levenshtein",
+    "distance",
+    "cd",
+    "directory"
+  ],
+  "author": "Christoffer Ekblom",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "fast-levenshtein": "^2.0.6"
+  }
+}
